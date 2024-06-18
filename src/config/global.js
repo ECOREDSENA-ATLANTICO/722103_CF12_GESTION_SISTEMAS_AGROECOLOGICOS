@@ -1,9 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo: 'Propagación vegetal',
+    descripcionCurso:
+      'En este componente formativo, se abordan temas que le permitirán implementar métodos de propagación vegetal, teniendo en cuenta sustratos, técnicas de desinfección, tipos de propagación, manejo de plagas, metodologías <i> in vitro</i>, entre otros, según principios agroecológicos.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
@@ -11,7 +12,7 @@ export default {
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
       },
     ],
   },
@@ -31,12 +32,12 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Sustratos y medios de enraizamiento',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Tipos de sustrato',
             hash: 't_1_1',
           },
         ],
@@ -45,13 +46,31 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Desinfectantes',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Normatividad',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Tipo de material vegetal',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Biotecnología para propagación vegetal',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema6',
+        numero: '6',
+        titulo: 'Manejo Ecológico de Plagas y Enfermedades (MEPE)',
         desarrolloContenidos: true,
       },
     ],
@@ -83,11 +102,11 @@ export default {
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
       },
-      {
-        icono: 'fas fa-file-pdf',
-        titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
-      },
+      // {
+      //   icono: 'fas fa-file-pdf',
+      //   titulo: 'Descargar PDF',
+      //   download: 'downloads/prueba.pdf',
+      // },
       {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
@@ -102,32 +121,75 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: '1. Sustratos y medios de enraizamiento',
+      referencia:
+        'Escuela Agrícola Panamericana. (2012). Manual de establecimiento de cultivos. Programa de Manejo Integrado de Plagas en América Central.',
+      tipo: 'Capítulo de libro',
+      link:
+        'https://www.se.gob.hn/media/files/media/Modulo_4_Manual_Establecimiento_de_Cultivos..pdf',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: '1. Sustratos y medios de enraizamiento',
+      referencia:
+        'Osuna, H., Osuna, A. y Fierro, A. (2016). Manual de propagación de plantas superiores. Casa abierta al tiempo.',
+      tipo: 'Libro',
+      link:
+        'https://www.casadelibrosabiertos.uam.mx/contenido/contenido/Libroelectronico/manual_plantas.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Angiosperma',
+      significado: 'plantas que tienen las semillas encerradas en un ovario.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Autótrofa',
+      significado:
+        'plantas que poseen pigmentos que les permiten sintetizar carbohidratos a partir del dióxido de carbono.',
+    },
+    {
+      termino: 'Gametofito',
+      significado:
+        'generación de células haploides, que produce células reproductoras sexuales, las gametas.',
+    },
+    {
+      termino: 'Gimnosperma',
+      significado:
+        'planta vascular, principalmente árbol, cuyas semillas se encuentran al descubierto.',
+    },
+    {
+      termino: 'Semilla',
+      significado: 'conforma el fruto y da origen a la planta.',
+    },
+    {
+      termino: 'Material vegetativo',
+      significado:
+        'semilla, parte de planta o planta viva destinada a ser plantada.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Baysal-Gurel, F. (2016). Selección y uso de desinfectantes para la producción en viveros. Universidad Estatal de Tennessee.',
+      link:
+        'https://www.tnstate.edu/extension/spanish_nursery_publications/Disinfectant%20factsheet%20%20Selecci%C3%B3n%20y%20uso%20de%20desinfectantes%20para%20la%20producci%C3%B3n%20en%20viveros.pdf',
+    },
+    {
+      referencia:
+        'Brechelt, A. (2004). El manejo ecológico de plagas y enfermedades. Red de Acción en Plaguicidas y sus Alternativas para América Latina [RAP-AL].',
+      link:
+        'https://webzoom.freewebs.com/rentawebscr/alonsocr2013/descargas/Manejo_Ecologico_de_Plagas_A.Bretchel.pdf',
+    },
+    {
+      referencia:
+        'Quiñoes, J. (2015). Guía de técnicas, métodos y procedimientos de reproducción asexual o vegetativa de las plantas. Centro para el Desarrollo Agropecuario y Forestal [CEDAF]. ',
+      link:
+        'https://www.competitividad.org.do/wp-content/uploads/2016/05/Gu%C3%ADa-de-t%C3%A9cnicas-m%C3%A9todos-y-procedimientos-de-reproducci%C3%B3n-asexual-o-vegetativa-de-las-plantas.pdf',
+    },
+    {
+      referencia:
+        'Willan, R. (1991). Guía para la manipulación de semillas forestales. Organización de las Naciones Unidas para la Agricultura y la Alimentación.',
+      link: 'https://www.fao.org/3/ad232s/ad232s00.htm#TOC',
     },
   ],
   creditos: [
@@ -135,15 +197,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del Ecosistema',
+          nombre: 'Tatiana Villamil',
+          cargo: 'Responsable del equipo',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Olga Constanza Bermúdez Jaimes',
+          nombre: 'Miguel De Jesús Paredes Maestre',
           cargo: 'Responsable de Línea de Producción',
           centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
       ],
     },
@@ -151,10 +213,32 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable de Desarrollo Curricular',
           centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+            'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        },
+
+        {
+          nombre: 'Diana Julieth Núñez Ortegón',
+          cargo: 'Experta Temática',
+          centro: 'Centro de Comercio y Servicio - Regional Tolima',
+        },
+        {
+          nombre: 'Paola Alexandra Moya Peralta',
+          cargo: 'Diseñadora instruccional',
+          centro:
+            'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
+        },
+        {
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Asesora Metodológica',
+          centro: 'Centro de Diseño y Metrología - Distrito Capital',
+        },
+        {
+          nombre: 'Sandra Patricia Hoyos Sepúlveda',
+          cargo: 'Corrector de estilo',
+          centro: 'Centro de Diseño y Metrología - Distrito Capital',
         },
       ],
     },
@@ -162,28 +246,34 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
+          nombre: 'Nelson Vera',
+          cargo: 'Producción audiovisual',
           centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
+          nombre: 'Alexander Acosta',
+          cargo: 'Producción audiovisual',
           centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
+          nombre: 'Carmen Martínez',
+          cargo: 'Producción audiovisual',
           centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
+          nombre: 'Rafael Pérez Meriño',
+          cargo: 'Desarrollo Fullstack ',
           centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
+        },
+        {
+          nombre: 'Eulices Orduz Amézquita',
+          cargo: 'Diseño de contenidos digitales',
+          centro:
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
       ],
     },
@@ -191,29 +281,35 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          nombre: 'Fabian Cuartas',
+          cargo: 'Validación de diseño y contenido',
           centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
         {
-          nombre: 'Jaime Hernan Tejada',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          nombre: 'Gilberto Herrera',
+          cargo: 'Validación de diseño y contenido',
           centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
         {
-          nombre: 'Daniel Ricardo Mutis Gómez',
+          nombre: 'Carolina Coca Salazar',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
         {
-          nombre: 'Margarita Marcela Medrano',
+          nombre: 'Luz Karime Amaya',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
-        }
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
+        },
+        {
+          nombre: 'Jairo Valencia Ebrat',
+          cargo: 'Validación de recursos digitales ',
+          centro:
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
+        },
       ],
     },
   ],

@@ -10,6 +10,11 @@
     top: 51%
     right: 30%
 
+@media screen and (max-width: 768px) 
+  .fondo-nutrientes
+    background-size: cover
+    background-repeat: no-repeat
+  
 
 @keyframes float1
   0%
@@ -17,3 +22,187 @@
 
   100%
     transform: translateY(0px)
+
+.banner-interno__fondo
+  background-image: url(../assets/curso/portada/banner-interno.svg) !important
+
+.cajon.color-acento-contenido
+  background-color : #FFE9E1 !important
+
+.col-sm-12.col-md-4.mb-4.mb-lg-0 > .tarjeta--boton.color-primario.p-4
+  background: #E9F3C7
+  min-height: 250px
+
+.col-sm-12.col-md-4.mb-4.mb-lg-0 > .tarjeta--boton.color-primario.p-4:hover
+  background: $color-primario !important
+
+.capa-primario1, .capa-secundario1, .capa-primario2, .capa-secundario2
+  border-radius: 5px !important
+  text-align: center !important
+  padding: 8px !important
+  margin: 10px 0
+
+.capa-primario1
+  background-color: #ADCE32
+  font-weight: bold !important
+
+.capa-secundario1
+  background-color: #EFFFB4
+
+.capa-primario2
+  background-color: #FFD947
+  font-weight: bold !important
+  
+.capa-secundario2
+  background-color: #FFF3C7
+
+.fondo-nutrientes
+  background-image: url(../assets/curso/temas/tema1/fondo.svg) !important
+  background-size: cover
+  background-repeat: no-repeat
+
+.tabla-a thead
+  background-color: $color-acento-contenido
+  border: none
+
+.bgr-beige-claro
+  background-color: #FFFBEC
+
+
+.bgr-verde-claro
+  background-color: #F2F7DF
+
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+  background-color: #FFF6F3
+
+.bordes-redondeados
+  border-radius: 10px 
+
+.bgr-amarillo-claro
+  background-color: #FFFAEB
+
+.tabs-b__tab
+  background-color: #FFF2CB
+
+.tabs-b__tab--active
+  background-color: #FFFAEB
+
+.icono-quimico
+  width: 140px
+  height: 140px
+
+.bgr-tarjeta-quimica1
+  padding: 10px
+  margin: 5px
+  background: #FFF8DA
+  border-radius: 10px
+
+.bgr-tarjeta-quimica2
+  padding: 10px
+  margin: 5px
+  background: #E1EDB5
+  border-radius: 10px
+
+.bgr-tarjeta-quimica3
+  padding: 10px
+  margin: 5px
+  background: #EFF3F6
+  border-radius: 10px
+
+.bgr-tarjeta-quimica4
+  padding: 10px
+  margin: 5px
+  background: #FFEDE7
+  border-radius: 10px
+
+
+.acordion__activo
+  background-color: #FFF8DA
+
+.bgr-verde-tarjeta
+  background: #E1EDB5
+
+.bgr-rosa-tarjeta
+  background: #FFEDE7
+
+.tarjetas-bordeadas
+  border-radius: 10px
+  background: white
+
+.bgr-tarjetas-bordeada-rosa
+  border: 2px solid #FFA686
+
+.bgr-tarjetas-bordeada-verde
+  border: 2px solid #ADCE32
+
+.bgr-tarjetas-bordeada-amarilla
+  border: 2px solid #FFD947
+
+.tabla-a tbody tr:nth-child(odd)
+  background-color: #f2f2f2
+
+.tabla-a tbody tr:nth-child(even)
+  background-color: #ffffff
+
+.bgr-tarjeta
+  display: flex
+  padding: 10px 5px
+  text-align: center
+  border-radius: 10px
+  min-height: 80px
+  align-items: center
+  justify-content: center
+
+.bgr-tarjeta-1
+  background: #FFF2BE
+
+.bgr-tarjeta-2
+  background: #E2EEB7
+
+.bgr-tarjeta-3
+  background: #FFD3C3
+
+.crd.crd--avatarHorizontal, 
+.crd--avatarHorizontal-bgr1,
+.crd--avatarHorizontal-bgr2
+  position: relative
+  align-items: stretch
+
+  &::before
+    position: absolute
+    content: ''
+    top: 0
+    right: 0
+    width: calc(100% - 60px)
+    height: 100%
+    background-color: #F6F6F6
+    border-radius: 10px
+
+.crd--avatarHorizontal-bgr1::before
+    background-color: #FFEDE7
+
+.crd--avatarHorizontal-bgr2::before
+    background-color: #EAF2CA
+
+.pasos-a__circle
+  text-transform: lowercase
+
+///////// Card hover --------------------------------------
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: #0B481E
+    h6  
+      color:#ADCE32
