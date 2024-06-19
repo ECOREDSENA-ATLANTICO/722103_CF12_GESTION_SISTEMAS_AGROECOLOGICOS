@@ -181,7 +181,7 @@
           tbody
             tr
               td.text-center Inorgánicos 
-              td 
+              td.text-start 
                 ul.lista-ul
                   li 
                     i.lista-ul__vineta
@@ -193,7 +193,7 @@
                     i.lista-ul__vineta
                     | Tener buena distribución de tamaño de partículas.
 
-              td
+              td.text-start
                 ul.lista-ul
                   li
                     i.lista-ul__vineta 
@@ -212,7 +212,7 @@
                     | Subproductos minerales (tales como óxidos metálicos).
             tr
               td.text-center Orgánicos
-              td 
+              td.text-start 
                 ul.lista-ul
                   li 
                     i.lista-ul__vineta 
@@ -233,11 +233,11 @@
                     i.lista-ul__vineta 
                     | Que no sean portadores o vectores de plagas y/o enfermedades.
 
-              td
+              td.text-start
                 ul.lista-ul
                   li 
                     i.lista-ul__vineta 
-                    | Turba (peat moss) (excelente retención de agua, CIC, baja densidad de partículas).
+                    | Turba <em>(peat moss)</em> (excelente retención de agua, CIC, baja densidad de partículas).
                   li 
                     i.lista-ul__vineta 
                     | Materia orgánica compostada (hojas de árboles, césped, residuos de poda).
@@ -258,7 +258,7 @@
           .tarjeta.p-4(titulo="Sustratos orgánicos")
             .row.bgr-verde-claro.p-4.bordes-redondeados
               .col-lg-7.mb-4
-                p Dentro de los sustratos orgánicos más comunes, se encuentra la turba (peat moss), productos maderables procesados por composteo (corteza, aserrín, virutas), composta de materia orgánica, lodos de depuradora, fango, estiércol, paja y cascarillas (arroz).
+                p Dentro de los sustratos orgánicos más comunes, se encuentra la turba <em>(peat moss)</em>, productos maderables procesados por composteo (corteza, aserrín, virutas), composta de materia orgánica, lodos de depuradora, fango, estiércol, paja y cascarillas (arroz).
               .col-lg-5
                 figure
                   img(src='@/assets/curso/temas/tema1/img9.png', alt='Imagen decorativa')

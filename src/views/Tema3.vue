@@ -36,29 +36,41 @@
           .bloque-texto-g__texto.p-4
             p.mb-0 El monitoreo de las condiciones ambientales dentro del establecimiento y en el desarrollo del proceso permite controlar las plagas y enfermedades, además de las condiciones ambientales del entorno, pues se busca que el proceso productivo sea ambientalmente sostenible (equilibrio económico, social y ambiental), generando productos más inocuos y saludables para el autoconsumo y el consumidor en general.
 
-      .row.my-5
-        .col-lg-8
+      .row.my-5.align-items-center
+        .col-lg-7
           p Para proteger los recursos naturales que están relacionados con la unidad productiva del proceso productivo, se deben aplicar normas de BPA, lo que garantice la sostenibilidad del sistema, la competitividad de la producción agrícola y la conservación de los factores ambientales.
 
-          ul
-            li Selección del lote.
-            li Evaluación previa de los peligros (químicos, físicos y microbiológicos).
-            li Manejo de residuos peligrosos generados en el proceso.
-            li Manejo del recurso hídrico dentro del proceso.
-            li Manejo de suelo.
-            li Selección del material de propagación adecuado. 
-        .col-lg-4
+          ul.lista-ul
+            li 
+              i.lista-ul__vineta
+              | Selección del lote.
+            li 
+              i.lista-ul__vineta
+              | Evaluación previa de los peligros (químicos, físicos y microbiológicos).
+            li 
+              i.lista-ul__vineta
+              | Manejo de residuos peligrosos generados en el proceso.
+            li 
+              i.lista-ul__vineta
+              | Manejo del recurso hídrico dentro del proceso.
+            li 
+              i.lista-ul__vineta
+              | Manejo de suelo.
+            li 
+              i.lista-ul__vineta
+              | Selección del material de propagación adecuado. 
+        .col-lg-5
           figure
             img(src='@/assets/curso/temas/tema3/img3.png', alt='Imagen decorativa')
       
-      .row
+      .row.my-3.align-items-center
         .col-lg-4
           figure
             img(src='@/assets/curso/temas/tema3/img4.png', alt='Imagen decorativa')
         .col-lg-8
           p Adicionalmente, hay que fomentar condiciones de trabajo seguras y saludables para los trabajadores, realizando capacitaciones constantes del personal en materia de primeros auxilios, manejo del botiquín, normas de higiene, procedimientos en caso de accidentes y emergencias, y entrenamiento para el manejo de equipos complejos y peligrosos.
 
-          .cajon.color-acento-botones.p-4
+          .cajon.color-acento-botones.p-4(style="background: #FFD94715")
             p.mb-0 Los trabajadores deben estar equipados con ropa adecuada para el desempeño de su labor; aquellos que realizan actividades de desinfección deben someterse a estudios anuales de salud, de acuerdo con las pautas de salud local, además de garantizarse que las personas que laboran estén vinculadas a un régimen de salud, bajo términos y amparados en la ley.        
 </template>
 

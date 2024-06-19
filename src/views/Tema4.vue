@@ -173,11 +173,11 @@
     p La semilla es el órgano de propagación vegetal mediante el cual el nuevo individuo se dispersa; la semilla, propiamente dicha, proviene de un fruto, que, a su vez, proviene de una flor, y el nivel de éxito de que el individuo se establezca depende de las características fisiológicas y bioquímicas de la semilla. Sin embargo, hay otros factores externos que intervienen, como el sustrato, el clima, la competencia, la depredación, entre otros; es por ello que las reservas (carbohidratos, lípidos y proteínas) que contenga serán claves para esta se mantenga hasta que la plántula sea capaz de utilizar la luz y hacerse autótrofa. Las semillas son la principal fuente de alimentación en el mundo.
 
     .row.py-4.align-items-center
-      .col-lg-8
+      .col-lg-7
         p Mediante este método de propagación vegetal, las plantas que no producen semilla logran perpetuarse, pues se reproducen utilizando partes vegetativas de una planta original, gracias a la capacidad de regeneración de tallos y raíces, o por la unión de partes vegetativas o injertos, así como también mediante cultivos in vitro.
         .cajon.color-acento-contenido.p-4
           p.mb-0 También se pueden generar plantas con características asexuales, por medio de semillas apomícticas (semillas con embriones de origen totalmente materno), las cuales provienen del saco embrionario; por ejemplo, la naranja. 
-      .col-lg-4
+      .col-lg-5
         figure
           img(src='@/assets/curso/temas/tema4/img6.png', alt='Imagen decorativa')
     
@@ -192,7 +192,7 @@
     .tarjeta--container.row.mb-5
       .col-md.tarjeta.color-acento-botones.p-5(style='background: #E1EDB5')
         .row.justify-content-center.mb-4
-          .col-lg-10
+          .col-lg-10.col-md-12.col-sm-6
             figure
               img(src='@/assets/curso/temas/tema4/img7.png', alt='Las modalidades de reproducción asexual se representa así:- Gemación: Mitosis asimétrica que se genera en organismos unicelulares como la levadura.')
         h4 Gemación
@@ -200,7 +200,7 @@
 
       .col-md.tarjeta.color-acento-botones.p-5(style='background: #FFF8DA')
         .row.justify-content-center.mb-4
-          .col-lg-10
+          .col-lg-10.col-md-12.col-sm-6
             figure
               img(src='@/assets/curso/temas/tema4/img8.png', alt='-Esporulación o esporogénesis: Reproducción de esporas y endosporas, mediante esporangios ubicados en el envés de la hoja. ')
           
@@ -209,7 +209,7 @@
 
       .col-md.tarjeta.color-acento-contenido.p-5(style='background: #E1EDB5')
         .row.justify-content-center.mb-4
-          .col-lg-10
+          .col-lg-10.col-md-12.col-sm-6
             figure
               img(src='@/assets/curso/temas/tema4/img9.png', alt='-Poliembrionía: Se desarrollan dos o más embriones en un solo óvulo fertilizado; por ejemplo, el mango.')
         h4 Poliembrionía
@@ -217,7 +217,7 @@
       
       .col-md.tarjeta.color-acento-contenido.p-5(style='background: #FFF8DA')
         .row.justify-content-center.mb-4
-          .col-lg-10
+          .col-lg-10.col-md-12.col-sm-6
             figure
               img(src='@/assets/curso/temas/tema4/img10.png', alt='-Apomixis: Cuando una parte de la planta se divide (tallo, rama, brote, tubérculo, rizoma) y se desarrolla por separado, hasta convertirse en una nueva planta.')
         h4 Apomixis
@@ -239,30 +239,30 @@
           ul.lista-ul
             li 
               i.lista-ul__vineta
-              span Escudete. 
+              span.color-verde Escudete. 
               | Es una t invertida para protegerse de la acumulación de agua; duración de 2 a 3 semanas.
             li 
               i.lista-ul__vineta
-              span Púa. 
+              span.color-verde Púa. 
               | Involucra una porción de tallo con varias yemas sobre un patrón.
             li 
               i.lista-ul__vineta
-              span Parche. 
+              span.color-verde Parche. 
               | Se extrae del patrón un parche rectangular.
             li 
               i.lista-ul__vineta
-              span De aproximación. 
+              span.color-verde De aproximación. 
               | Se emplea cuando la corteza del patrón es mucho más gruesa que la planta que servirá de injerto.
             li 
               i.lista-ul__vineta
-              span Puente. 
+              span.color-verde Puente. 
               | Se utiliza para reparar corteza del tronco lesionado.  
       .col-lg-4
         figure
           img(src='@/assets/curso/temas/tema4/img11.png', alt='Imagen decorativa')
       
       .row.my-3
-        .col-lg-8.crd.crd--avatarHorizontal.py-3.mb-2.m-auto
+        .col-lg-8.crd.crd--avatarHorizontal-bgr3.py-3.mb-2.m-auto
           .row.align-items-center
             .col-auto(style="z-index:1")
               figure
@@ -271,38 +271,39 @@
               p.m-0 Para poder seleccionar alguno de los tipos de injerto anteriormente mencionados, es importante tener en cuenta rendimiento, calidad de frutos y demás productos, rapidez de producción, cambios y variedades.
 
         
-    .row
+    .row.my-4.align-items-center
       .col-lg-4
         figure
           img(src='@/assets/curso/temas/tema4/img13.png', alt='Imagen decorativa')
       .col-lg-8
-        span Acodo
-        | Permite que un tallo o rama desarrolle raíces sin ser separado de la planta madre y, una vez que la rama ha generado raíces, se corta por debajo de ese punto, se planta y se obtiene una planta independiente pero idéntica a la madre. Dentro de los acodos, se tienen:
+        span.text-bold Acodo
+        p Permite que un tallo o rama desarrolle raíces sin ser separado de la planta madre y, una vez que la rama ha generado raíces, se corta por debajo de ese punto, se planta y se obtiene una planta independiente pero idéntica a la madre. Dentro de los acodos, se tienen:
 
         ul.lista-ul
           li 
-            i.lista-ul__vineta
-            span Aéreo simple: 
+            i.lista-ul__vineta(style="color: red")
+            span.color-verde Aéreo simple: 
             | un solo acorde por rama.
-          li 
+          li
             i.lista-ul__vineta
-            span Aéreo múltiple: 
+            span.color-verde Aéreo múltiple: 
             | varios acodos en una misma rama.
-          li 
+          li
             i.lista-ul__vineta
-            span Subterráneo simple: 
+            span.color-verde Subterráneo simple: 
             | se entierra solo una porción del tallo próximo al suelo.
-          li 
+          li
             i.lista-ul__vineta
-            span Subterráneo compuesto: 
+            span.color-verde Subterráneo compuesto: 
             | se entierran varias porciones de tallo en forma de serpentina.
 
-          .cajon.color-primario.p-4
-            p.mb-0 Para realizar un buen acodo, se debe seleccionar una buena rama o tallo, debajo de un nudo y hasta el extremo distal (15 cm), y efectuar unos dos cortes paralelos (separados de 2 a 3 cm), colocar papel aluminio (4 a 5 pulgadas), el material de enraizamiento (musgo o coco), colocar sobre el anillado y apretar el papel.
-    .row.mt-4.mb-3
+        .cajon.color-primario.p-4(style="background: #DEEBAD")
+          p.mb-0 Para realizar un buen acodo, se debe seleccionar una buena rama o tallo, debajo de un nudo y hasta el extremo distal (15 cm), y efectuar unos dos cortes paralelos (separados de 2 a 3 cm), colocar papel aluminio (4 a 5 pulgadas), el material de enraizamiento (musgo o coco), colocar sobre el anillado y apretar el papel.
+    
+    .row.my-4.mb-3.align-items-center
       .col-lg-8
         span.text-bold Estacas 
-        | se corta un fragmento del tallo con yemas y se entierra; luego de que broten raíces, ya se ha obtenido una nueva planta. Es importante tener en cuenta humedad, luz, y temperatura.
+        p se corta un fragmento del tallo con yemas y se entierra; luego de que broten raíces, ya se ha obtenido una nueva planta. Es importante tener en cuenta humedad, luz, y temperatura.
 
         p Para que el tallo o ramo desarrolle raíces, se deben tener 3 a 4 nudos con hojas, que deben seguir haciendo fotosíntesis para crecer; se debe seleccionar un buen sustrato; la siembra debe hacerse rápidamente, evitando la deshidratación; los cortes deben colocarse a una profundidad de 2 a 3 cm; entre la 3ª y la 8ª semana el esqueje ya tendrá raíces suficientes para realizar el trasplante
       .col-lg-4
@@ -379,10 +380,10 @@
     #t_4_3.titulo-segundo.color-acento-contenido
       h2 4.3 Tratamientos
 
-    .row
+    .row.my-3.align-items-center
       .col-lg-4
         figure
-          img(src='@/assets/curso/temas/tema4/img15.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema4/img26.svg', alt='Imagen decorativa')
       .col-lg-8
         .cajon.color-acento-contenido.p-4
           p.mb-0 Cuando la planta no produce semilla, se debe buscar alguna alternativa de propagación y, a través de cada uno de los métodos anteriormente citados, se puede generar un clon y así tener variedad con valor genético; no obstante, cada técnica requiere de un alistamiento y tratamiento especial, con el fin de que se logre perpetuar la propagación. 
@@ -407,4 +408,15 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+ul
+  padding-left: 40px !important
+
+i.lista-ul__vineta
+  color: green !important
+  font-weight: bolder
+  font-size: 1.2em
+
+li
+  margin-bottom: 0 !important
+</style>

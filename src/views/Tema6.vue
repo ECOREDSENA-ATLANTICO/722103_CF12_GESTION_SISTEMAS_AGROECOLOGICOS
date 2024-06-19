@@ -7,7 +7,7 @@
         span 6
       h1 Manejo Ecológico de Plagas y Enfermedades (MEPE)
 
-    .row.mb-4
+    .row.mb-4.align-items-center
       .col-lg-8
         .cajon.color-acento-botones.p-4.mb-4(style="background: #FFFAE3")
           p.mb-0 La implementación de diversas técnicas de agricultura ha venido generando problemas en cuanto a plagas y enfermedades, y la posible solución anticipada de utilizar plaguicidas de origen químico, de manera no controlada ni guiada, en vez de mejorar la situación, ha generado fuertes daños a la productividad, al ser humano y al medio ambiente.
@@ -33,8 +33,8 @@
         figure
           img(src='@/assets/curso/temas/tema6/img1.png', alt='Imagen decorativa')
     
-    .row.mb-5
-      .col-lg-8.crd.crd--avatarHorizontal-bgr2.py-3.mb-2.m-auto
+    .row.mb-5.align-items-center
+      .col-lg-10.crd.crd--avatarHorizontal-bgr2.py-3.mb-2.m-auto
         .row.align-items-center
           .col-auto(style="z-index:1")
             figure

@@ -34,23 +34,23 @@
     
       p.my-4 La micropropagación de plantas in vitro es una técnica consistente en propagar plantas de forma asexual, a través de un explante, mediante hojas, tallos, raíces, semillas o cualquier otro órgano, cuyo lugar de propagación sea el laboratorio y la cual permita obtener una planta idéntica a la madre.
       
-      .row
+      .row.align-items-center
         .col-lg-6.crd.crd--avatarHorizontal-bgr1.py-3.mb-3
           .row.align-items-center
             .col-auto(style="z-index:1")
               figure
                 img(src="@/assets/curso/temas/tema5/img3.svg", alt="", style="width: 100px")
             .col(style="z-index:1")
-              strong.m-0 Embriogénesis genética, 
-              | o somática, técnica mediante la cual se desarrolla un embrión sin la unión y fertilización de gametos. Se encuentran embriogénesis directa e indirecta. 
-        .col-lg-6.crd.crd--avatarHorizontal.py-3.mb-3
+              strong.m-0.text-small Embriogénesis genética, 
+              span.text-small o somática, técnica mediante la cual se desarrolla un embrión sin la unión y fertilización de gametos. Se encuentran embriogénesis directa e indirecta. 
+        .col-lg-6.crd.crd--avatarHorizontal-right-bgr1.py-3.mb-3
           .row.align-items-center
+            .col(style="z-index:1;padding-left: 30px")
+              strong.m-0.text-small Organogénesis, 
+              span.text-small técnica que consiste en obtener tallos, raíces o flores por medio de una yema; se puede llevar a cabo de manera directa, desde el explante, o indirecta, desde los callos; no obstante, para ambos casos, se requiere de medios de cultivo.
             .col-auto(style="z-index:1")
               figure
                 img(src="@/assets/curso/temas/tema5/img4.svg", alt="", style="width: 100px")
-            .col(style="z-index:1")
-              strong Organogénesis, 
-              | técnica que consiste en obtener tallos, raíces o flores por medio de una yema; se puede llevar a cabo de manera directa, desde el explante, o indirecta, desde los callos; no obstante, para ambos casos, se requiere de medios de cultivo.
             
         .col-lg-6
           p.mb-0

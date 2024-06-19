@@ -164,7 +164,8 @@
 
 .crd.crd--avatarHorizontal, 
 .crd--avatarHorizontal-bgr1,
-.crd--avatarHorizontal-bgr2
+.crd--avatarHorizontal-bgr2,
+.crd--avatarHorizontal-bgr3
   position: relative
   align-items: stretch
 
@@ -183,6 +184,9 @@
 
 .crd--avatarHorizontal-bgr2::before
     background-color: #EAF2CA
+
+.crd--avatarHorizontal-bgr3::before
+  background-color: #FFF8DA
 
 .pasos-a__circle
   text-transform: lowercase
@@ -206,3 +210,33 @@
     background-color: #0B481E
     h6  
       color:#ADCE32
+
+// Color viñetas
+.lista-ul__vineta
+  color: #FFA686
+  font-weight: bolder
+
+//Color de los puntos inactivos del slider
+.slyder-a__bullets__item
+  background: #707070
+
+//Color de los punto activo del slider
+.slyder-a__bullets__item--active
+  background: #0B481E
+
+.color-verde
+  color:#478533
+  font-weight: 
+  
+.crd--avatarHorizontal-right-bgr1
+  position: relative
+  align-items: stretch
+
+  &::before
+    position: absolute
+    content: ''
+    top: 0
+    width: calc(100% - 70px)
+    height: 100%
+    background-color: #F6F6F6
+    border-radius: 10px
