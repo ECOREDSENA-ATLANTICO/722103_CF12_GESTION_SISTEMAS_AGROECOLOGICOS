@@ -163,11 +163,11 @@
                       .capa-secundario2 Cloro
                       .capa-secundario2 Molibdeno
       .row.p-3
-          p Normalmente, los nutrientes como nitrógeno, fósforo y potasio deben ser aportados en grandes cantidades mediante abono, teniendo en cuenta las necesidades de la planta, y normalmente el espacio del recipiente (maceta) es reducido.
+          p Normalmente, los nutrientes como nitrógeno, fósforo y potasio deben ser aportados en grandes cantidades mediante abono, teniendo en cuenta las necesidades de la planta y normalmente el espacio del recipiente (maceta) es reducido.
 
       .titulo-sexto.color-acento-contenido.mb-3
         h5 Tabla 1. 
-        span Propiedades y características deseables de componentes orgánicos e inorgánicos para sustratos de cultivos
+        span Propiedades y características deseables de componentes orgánicos e inorgánicos para sustratos de cultivos.
 
       .tabla-a.color-acento-contenido.mb-5
         table
@@ -339,7 +339,7 @@
           .row.px-5.pt-3
             .col-md-6.mb-4.mb-md-0
               h4 Sustrato compost, arena y cascarilla de arroz
-                p.mt-4 Escoria volcánica constituida por silicatos de aluminio y feldespatos, los cuales se forman al ser expelida la lava y enfriarse de golpe, constituyendo el manto piroclástico. Tiene elevada capacidad de retención del agua fácilmente disponible, gran densidad. Están constituidos, en su gran mayoría, por óxido de silicio y óxido de aluminio, con cantidades pequeñas de hierro, calcio, magnesio, sodio, además de nitrógeno, fósforo y potasio.
+                p.mt-4 Para elaborar el sustrato, se debe tostar la cascarilla de arroz. En cuanto al medio de siembra, se cuenta con arena lavada, compost y cascarilla de arroz tostada, además, se debe desinfectar el medio de siembra con vapor de agua y añadir cal.
 
             .col-md-6
               figure
@@ -360,6 +360,15 @@
             .col-md-6
               figure
                 img(src='@/assets/curso/temas/tema1/img20.png', alt='Imagen decorativa')
+          
+          .row.px-5.pt-3
+            .col-md-6.mb-4.mb-md-0
+              h4 Lombrihumus
+                p.mt-4 El humus de lombriz se mezcla con bocashi y tierra cernida, en diferentes proporciones, dependiendo del cultivo, por ejemplo, para hortalizas, se utiliza 50 a 60 % de tierra cernida, 10 a 20 % de bocashi y 20 a 40 % de humus; mientras que para frutales, se utiliza 40 a 50 % de tierra cernida, 20 a 40 % bocashi y 20 a 40 % de humus.
+
+            .col-md-6
+              figure
+                img(src='@/assets/curso/temas/tema1/img53.svg', alt='Imagen decorativa')
 
       .row.mt-5.mb-3.align-items-center
         .col-auto
@@ -373,8 +382,7 @@
         LineaTiempoD.color-acento-contenido
           .row(numero="1" titulo="Solarización")
             .col-md-6.mb-4.mb-md-0
-              p.text-small Un sustrato debe ser desinfectado cuando existe sospecha de contaminación, cuando se tienen especies muy susceptibles a enfermedades del suelo o, de pronto, si son especies de mucho valor (económico, investigativo, entre otros). No obstante, la desinfección del sustrato no siempre es necesaria, en gran parte depende del sustrato y del tipo de material vegetal que se vaya a propagar.
-              p.text-small Teniendo en cuenta la información anterior, dentro de las técnicas para lograr la desinfección del sustrato, se encuentran:
+              p.text-small Mediante la cual se aprovecha la energía solar para elevar la temperatura del sustrato y, de esta manera, eliminar patógenos. Esta técnica consiste en humedecer el sustrato y cubrirlo con plástico, logrando temperaturas de hasta 82°C durante 3 meses. Además, sirve para aumentar el contenido de nitrógeno, calcio y magnesio del suelo por mineralización. 
 
             .col-md-6
               figure
@@ -441,7 +449,7 @@
           .py-4.py-md-5.bgr-amarillo-claro(titulo="No recuperables" :icono="require('@/assets/curso/temas/tema1/img31.svg')")
             .row.p-5
               .col-md-7.mb-4.mb-md-0.px-4
-                p Son aquellos constituidos por plástico (polipropileno, poliestireno expandido y/o polietileno rígido) con diferentes niveles de rigidez; se pueden reutilizar en varias campañas de propagación o rotación del cultivo aplicando buenas prácticas de desinfección.
+                p Son aquellos contenedores que permiten el paso de la humedad por sus paredes, lo que implica mayor riesgo. Además, las sales suspendidas en el agua se precipitan en la pared del contenedor, llegando con el tiempo a formar una concentración alta de sales donde hay gran cantidad de raíces. Los hay de barro, cerámica, cemento, cantera, entre otros.
             
               .col-md-5
                 figure
@@ -450,7 +458,7 @@
           .py-4.py-md-5.bgr-amarillo-claro(titulo="Recuperables" :icono="require('@/assets/curso/temas/tema1/img30.svg')")
             .row.p-5
               .col-md-7.mb-4.mb-md-0.px-4
-                p Son aquellos contenedores que permiten el paso de la humedad por sus paredes, lo que implica mayor riesgo. Además, las sales suspendidas en el agua se precipitan en la pared del contenedor, llegando con el tiempo a formar una concentración alta de sales donde hay gran cantidad de raíces. Los hay de barro, cerámica, cemento, cantera, entre otros.
+                p Son aquellos constituidos por plástico (polipropileno, poliestireno expandido y/o polietileno rígido) con diferentes niveles de rigidez; se pueden reutilizar en varias campañas de propagación o rotación del cultivo aplicando buenas prácticas de desinfección.
             
               .col-md-5
                 figure
@@ -459,7 +467,7 @@
       .row.p-5(style="background: #adce3240")
           
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 2. 
+          h5 Figura 1. 
           span Factores que afectan la eficiencia de un desinfectante
         .row.fnd-2.mb-3 
           figure(data-aos="zoom-in-left")

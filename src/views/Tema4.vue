@@ -14,7 +14,7 @@
           )
           .bloque-texto-g__texto.p-4
             p Para propagar especies vegetales, se requiere de material vegetal (semillas, polen, partes de la planta o tejido vegetal) de calidad, el cual, bajo unas condiciones ideales, logre su desarrollo y, de esta manera, contribuya con la productividad, la salud, la industria alimentaria, investigación, entre otros.
-            p.mb-0 Existe gran variedad de métodos, que van desde procedimientos sencillos (estacas) hasta los más complejos, que incluyen técnicas de biotecnología (cultivo in vitro). 
+            p.mb-0 Existe gran variedad de métodos, que van desde procedimientos sencillos (estacas) hasta los más complejos, que incluyen técnicas de biotecnología (cultivo <em>in vitro</em>). 
   
     Separador
     #t_4_1.titulo-segundo.color-acento-contenido
@@ -22,20 +22,20 @@
     p La semilla es el órgano de propagación vegetal mediante el cual el nuevo individuo se dispersa; la semilla, propiamente dicha, proviene de un fruto, que, a su vez, proviene de una flor, y el nivel de éxito de que el individuo se establezca depende de las características fisiológicas y bioquímicas de la semilla. Sin embargo, hay otros factores externos que intervienen, como el sustrato, el clima, la competencia, la depredación, entre otros; es por ello que las reservas (carbohidratos, lípidos y proteínas) que contenga serán claves para esta se mantenga hasta que la plántula sea capaz de utilizar la luz y hacerse autótrofa. Las semillas son la principal fuente de alimentación en el mundo.
 
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")        
-        .row(titulo="Desarrollo de la semilla en angiospermas")
-          .col-lg-8.mb-4.mb-md-0
+      AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")    
+        .row(titulo="Polinización y fecundación")
+          .col-lg-8.mb-md-0
             p Dos grupos de plantas producen semillas, las gimnospermas (semillas desnudas-coníferas) y las angiospermas (el óvulo y la semilla se desarrollan dentro de un ovario, el cual da origen al fruto). La fecundación inicia con la unión de núcleo masculino haploide, procedente del grano de polen, con un núcleo haploide femenino, dentro del óvulo, para formar un nuevo organismo diploide, es decir, la fecundación está precedida por la polinización, luego de la llegada del polen al estigma de la flor (angiospermas) o cerca del micrópilo del óvulo (gimnospermas).
-        
+       
           .col-lg-4.px-4
             figure
               img(src='@/assets/curso/temas/tema4/img2.png', alt='Imagen decorativa')
-        
-        .row(titulo="Polinización y fecundación")
-          .col-lg-12.mb-md-0
+  
+        .row(titulo="Desarrollo de la semilla en angiospermas")
+          .col-lg-12.mb-4.mb-md-0
             p En la fecundación, el óvulo, en una angiosperma, consta de una o dos cubiertas protectoras (integumentos) y un tejido central (la nucela). La  meiosis de la célula madre, dentro de la nucela, seguida de varias divisiones mitóticas, es lo que genera la formación del saco embrional (estructura haploide de 8 núcleos y 7 células), la cual ocupa espacio central de la nucela. Cuando el tubo polínico llega al saco embrionario, libera dos gametos masculinos, donde uno de ellos se une a uno de los núcleos del saco embrional (célula huevo) para formar un zigoto, que después se convierte en planta embrionaria diploide; en cuanto al segundo gameto masuclino, este se une con otros dos núcleos femeninos (núcleos polares) para formar una célula triploide, que después se convierte en el endosperma, tejido que actúa como reserva nutritiva para el desarrollo del embrión. Finalmente, los otros cinco núcleos del saco embrional (dos sinérgidas y tres células antipodales) no desempeñan ninguna función en el desarrollo de la semilla, pues, para que se desarrolle una buena semilla, es necesario que se produzca tanto la fecundación de la célula huevo como la triple fusión con los núcleos polares.
         
-          .col-lg-10.m-auto
+          .col-lg-11.m-auto
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
               h5 Figura 3. 
               span Desarrollo de la semilla en angiospermas
@@ -44,11 +44,11 @@
 
             figcaption.mb-5.text-center Nota. 
               span Adaptado de Selección y uso de desinfectantes para la producción en viveros (2016).
-
+        
+        
         .row(titulo="Desarrollo del fruto en angiospermas")
           .col-lg-12.mb-md-0
-            p El desarrollo de la semilla fecundada normalmente va a acompañado por el desarrollo del fruto, por lo cual, se engrosa la pared del ovario para formar el pericar po, encontrando frutos dehiscentes, indehiscentes o secos, e indehiscentes y carnosos. Observe cómo se presenta el desarrollo del fruto en angiospermas.
-        
+            p En la fecundación, el óvulo, en una angiosperma, consta de una o dos cubiertas protectoras (integumentos) y un tejido central (la nucela). La  meiosis de la célula madre, dentro de la nucela, seguida de varias divisiones mitóticas, es lo que genera la formación del saco embrional (estructura haploide de 8 núcleos y 7 células), la cual ocupa espacio central de la nucela. Cuando el tubo polínico llega al saco embrionario, libera dos gametos masculinos, donde uno de ellos se une a uno de los núcleos del saco embrional (célula huevo) para formar un zigoto, que después se convierte en planta embrionaria diploide; en cuanto al segundo gameto masuclino, este se une con otros dos núcleos femeninos (núcleos polares) para formar una célula triploide, que después se convierte en el endosperma, tejido que actúa como reserva nutritiva para el desarrollo del embrión. Finalmente, los otros cinco núcleos del saco embrional (dos sinérgidas y tres células antipodales) no desempeñan ninguna función en el desarrollo de la semilla, pues, para que se desarrolle una buena semilla, es necesario que se produzca tanto la fecundación de la célula huevo como la triple fusión con los núcleos polares.
           .tarjeta--container.row.m-0
             .col-md.tarjeta.bgr-verde-tarjeta.p-5
               .row.justify-content-center.mb-4
@@ -75,7 +75,7 @@
                     img(src='@/assets/curso/temas/tema4/img18.png', alt='Imagen decorativa')
                 
               h2.text-center Indehiscente y carnoso
-              p.text-center Se caracterizan por tener color, olor y sabor llamativos, para atraer aves o animales frugívoros. Se distingue la baya (Diospyros) y drupa (prunus).
+              p.text-center Se caracterizan por tener color, olor y sabor llamativos, para atraer aves o animales frugívoros. Se distingue la baya (<em>Diospyros</em>) y drupa (<em>prunus</em>).
       
         .row(titulo="Desarrollo de la semilla en las gimnospermas")
           .col-md-12.mb-md-0
@@ -305,7 +305,7 @@
         span.text-bold Estacas 
         p se corta un fragmento del tallo con yemas y se entierra; luego de que broten raíces, ya se ha obtenido una nueva planta. Es importante tener en cuenta humedad, luz, y temperatura.
 
-        p Para que el tallo o ramo desarrolle raíces, se deben tener 3 a 4 nudos con hojas, que deben seguir haciendo fotosíntesis para crecer; se debe seleccionar un buen sustrato; la siembra debe hacerse rápidamente, evitando la deshidratación; los cortes deben colocarse a una profundidad de 2 a 3 cm; entre la 3ª y la 8ª semana el esqueje ya tendrá raíces suficientes para realizar el trasplante
+        p Para que el tallo o ramo desarrolle raíces, se deben tener 3 a 4 nudos con hojas, que deben seguir haciendo fotosíntesis para crecer; se debe seleccionar un buen sustrato; la siembra debe hacerse rápidamente, evitando la deshidratación; los cortes deben colocarse a una profundidad de 2 a 3 cm; entre la 3ª y la 8ª semana el esqueje ya tendrá raíces suficientes para realizar el trasplante.
       .col-lg-4
         figure
           img(src='@/assets/curso/temas/tema4/img14.png', alt='Imagen decorativa')

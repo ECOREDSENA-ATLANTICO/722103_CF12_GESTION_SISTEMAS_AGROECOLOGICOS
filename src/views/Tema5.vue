@@ -14,11 +14,11 @@
         )
         .bloque-texto-g__texto.p-4
           p El cultivo de tejidos es aquel que requiere un medio libre de microorganismos y soluciones nutritivas, mezcladas con hormonas vegetales que promueven el crecimiento de raíces, tallos y hojas a partir de un segmento de planta. 
-          p.mb-0 La propagación de plantas in vitro involucra cultivar material vegetal dentro de recipientes de vidrio, bajo condiciones ambientales artificiales, siendo pieza clave para el desarrollo científico.
+          p.mb-0 La propagación de plantas <em>in vitro</em> involucra cultivar material vegetal dentro de recipientes de vidrio, bajo condiciones ambientales artificiales, siendo pieza clave para el desarrollo científico.
     
       .row.m-4.p-4
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 3. 
+          h5 Figura 5. 
           span Desarrollo de la semilla en  angiospermas
 
         figure
@@ -32,7 +32,7 @@
           h3.mb-0 Tipos y técnicas de propagación en laboratorio
       
     
-      p.my-4 La micropropagación de plantas in vitro es una técnica consistente en propagar plantas de forma asexual, a través de un explante, mediante hojas, tallos, raíces, semillas o cualquier otro órgano, cuyo lugar de propagación sea el laboratorio y la cual permita obtener una planta idéntica a la madre.
+      p.my-4 La micropropagación de plantas <em>in vitro</em> es una técnica consistente en propagar plantas de forma asexual, a través de un explante, mediante hojas, tallos, raíces, semillas o cualquier otro órgano, cuyo lugar de propagación sea el laboratorio y la cual permita obtener una planta idéntica a la madre.
       
       .row.align-items-center
         .col-lg-6.crd.crd--avatarHorizontal-bgr1.py-3.mb-3
@@ -67,7 +67,7 @@
         
         .row
           .col-lg-12.mb-4.mb-md-0
-            p Establecimiento del cultivo. Se da inicio al ciclo in vitro, al cual se le ha controlado la selección, aislamiento y esterilización de explantes, introduciendo todo en un cultivo estéril y se esperan dos semanas a que inicie el proceso de germinación.
+            p Establecimiento del cultivo. Se da inicio al ciclo <em>in vitro</em>, al cual se le ha controlado la selección, aislamiento y esterilización de explantes, introduciendo todo en un cultivo estéril y se esperan dos semanas a que inicie el proceso de germinación.
         
         .row
           .col-lg-12.mb-4.mb-md-0
@@ -159,7 +159,7 @@
         .col.px-0
           h3.mb-0 Protocolos para la siembra de material <i>in vitro</i>
       
-      p El protocolo para siembra de material in vitro permite diseñar el paso a paso del proceso, con el fin de poder realizar un alistamiento de los medios (material vegetal y explantes), materiales (preparación del medio de cultivo), además de verificar lo que se necesita para desarrollar la desinfección del material vegetal y el análisis de las variables a considerar, con el fin de lograr un proceso exitoso.
+      p El protocolo para siembra de material <em>in vitro</em> permite diseñar el paso a paso del proceso, con el fin de poder realizar un alistamiento de los medios (material vegetal y explantes), materiales (preparación del medio de cultivo), además de verificar lo que se necesita para desarrollar la desinfección del material vegetal y el análisis de las variables a considerar, con el fin de lograr un proceso exitoso.
       p Describe el procedimiento a desarrollar, para finalmente poder analizar los resultados obtenidos y establecer estrategias de mejora que permitan optimizar el proceso y, de esta manera, lograr el fin inicial.
 </template>
 

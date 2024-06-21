@@ -40,6 +40,16 @@ export default {
             titulo: 'Tipos de sustrato',
             hash: 't_1_1',
           },
+          {
+            numero: '1.2',
+            titulo: 'Herramientas, equipos y técnicas',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Herramientas, equipos y técnicas',
+            hash: 't_1_2',
+          },
         ],
       },
 
@@ -48,6 +58,13 @@ export default {
         numero: '2',
         titulo: 'Desinfectantes',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Tipos',
+            hash: 't_2_1',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
@@ -60,6 +77,23 @@ export default {
         numero: '4',
         titulo: 'Tipo de material vegetal',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Sexual',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Propagación asexual',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo: 'Tratamientos',
+            hash: 't_4_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema5',
