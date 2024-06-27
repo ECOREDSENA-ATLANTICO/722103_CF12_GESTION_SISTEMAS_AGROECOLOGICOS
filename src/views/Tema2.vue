@@ -32,8 +32,8 @@
           span Adaptado de Selección y uso de desinfectantes para la producción en viveros (2016). 
     
     Separador
-    #t_1_1.titulo-segundo.color-acento-contenido
-      h2 2.1 Tipos
+    #t_2_1.titulo-segundo.color-acento-contenido
+      h2(data-aos='flip-left') 2.1 Tipos
     p.pb-3 La desinfección del sustrato y el material vegetal previa al proceso de propagación debe realizarse usando los desinfectantes adecuados y en concentraciones indicadas, para no afectar la planta, pues, al ser sometidos a los distintos métodos, se pierden nutrientes y condiciones apropiadas para el desarrollo de la planta.
 
     .row.mb-3.align-items-center

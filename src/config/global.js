@@ -4,7 +4,7 @@ export default {
     descripcionCurso:
       'En este componente formativo, se abordan temas que le permitirán implementar métodos de propagación vegetal, teniendo en cuenta sustratos, técnicas de desinfección, tipos de propagación, manejo de plagas, metodologías <i> in vitro</i>, entre otros, según principios agroecológicos.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
@@ -136,11 +136,11 @@ export default {
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
       },
-      // {
-      //   icono: 'fas fa-file-pdf',
-      //   titulo: 'Descargar PDF',
-      //   download: 'downloads/prueba.pdf',
-      // },
+      {
+        icono: 'fas fa-file-pdf',
+        titulo: 'Descargar PDF',
+        download: 'downloads/722103_CF12-DU.pdf',
+      },
       {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
@@ -159,16 +159,14 @@ export default {
       referencia:
         'Escuela Agrícola Panamericana. (2012). Manual de establecimiento de cultivos. Programa de Manejo Integrado de Plagas en América Central.',
       tipo: 'Capítulo de libro',
-      link:
-        'https://www.se.gob.hn/media/files/media/Modulo_4_Manual_Establecimiento_de_Cultivos..pdf',
+      link: 'downloads/Modulo_4_Manual_Establecimiento_de_Cultivos.pdf',
     },
     {
       tema: '1. Sustratos y medios de enraizamiento',
       referencia:
         'Osuna, H., Osuna, A. y Fierro, A. (2016). Manual de propagación de plantas superiores. Casa abierta al tiempo.',
       tipo: 'Libro',
-      link:
-        'https://www.casadelibrosabiertos.uam.mx/contenido/contenido/Libroelectronico/manual_plantas.pdf',
+      link: 'downloads/manual_plantas.pdf',
     },
   ],
   glosario: [

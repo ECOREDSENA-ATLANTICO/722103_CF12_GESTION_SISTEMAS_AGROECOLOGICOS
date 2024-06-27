@@ -18,7 +18,7 @@
   
     Separador
     #t_4_1.titulo-segundo.color-acento-contenido
-      h2 4.1 Sexual
+      h2(data-aos='flip-left') 4.1 Sexual
     p La semilla es el órgano de propagación vegetal mediante el cual el nuevo individuo se dispersa; la semilla, propiamente dicha, proviene de un fruto, que, a su vez, proviene de una flor, y el nivel de éxito de que el individuo se establezca depende de las características fisiológicas y bioquímicas de la semilla. Sin embargo, hay otros factores externos que intervienen, como el sustrato, el clima, la competencia, la depredación, entre otros; es por ello que las reservas (carbohidratos, lípidos y proteínas) que contenga serán claves para esta se mantenga hasta que la plántula sea capaz de utilizar la luz y hacerse autótrofa. Las semillas son la principal fuente de alimentación en el mundo.
 
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
@@ -168,7 +168,7 @@
 
     Separador
     #t_4_2.titulo-segundo.color-acento-contenido
-    h2 4.2 Propagación asexual
+    h2(data-aos='flip-left') 4.2 Propagación asexual
 
     p La semilla es el órgano de propagación vegetal mediante el cual el nuevo individuo se dispersa; la semilla, propiamente dicha, proviene de un fruto, que, a su vez, proviene de una flor, y el nivel de éxito de que el individuo se establezca depende de las características fisiológicas y bioquímicas de la semilla. Sin embargo, hay otros factores externos que intervienen, como el sustrato, el clima, la competencia, la depredación, entre otros; es por ello que las reservas (carbohidratos, lípidos y proteínas) que contenga serán claves para esta se mantenga hasta que la plántula sea capaz de utilizar la luz y hacerse autótrofa. Las semillas son la principal fuente de alimentación en el mundo.
 
@@ -275,11 +275,11 @@
       .col-lg-4
         figure
           img(src='@/assets/curso/temas/tema4/img13.png', alt='Imagen decorativa')
-      .col-lg-8
+      .col-lg-8.my-4
         span.text-bold Acodo
         p Permite que un tallo o rama desarrolle raíces sin ser separado de la planta madre y, una vez que la rama ha generado raíces, se corta por debajo de ese punto, se planta y se obtiene una planta independiente pero idéntica a la madre. Dentro de los acodos, se tienen:
 
-        ul.lista-ul
+        ul.lista-ul.mb-4
           li 
             i.lista-ul__vineta(style="color: red")
             span.color-verde Aéreo simple: 
@@ -306,7 +306,7 @@
         p se corta un fragmento del tallo con yemas y se entierra; luego de que broten raíces, ya se ha obtenido una nueva planta. Es importante tener en cuenta humedad, luz, y temperatura.
 
         p Para que el tallo o ramo desarrolle raíces, se deben tener 3 a 4 nudos con hojas, que deben seguir haciendo fotosíntesis para crecer; se debe seleccionar un buen sustrato; la siembra debe hacerse rápidamente, evitando la deshidratación; los cortes deben colocarse a una profundidad de 2 a 3 cm; entre la 3ª y la 8ª semana el esqueje ya tendrá raíces suficientes para realizar el trasplante.
-      .col-lg-4
+      .col-lg-4.my-4
         figure
           img(src='@/assets/curso/temas/tema4/img14.png', alt='Imagen decorativa')
     
@@ -378,17 +378,17 @@
     
     Separador
     #t_4_3.titulo-segundo.color-acento-contenido
-      h2 4.3 Tratamientos
+      h2(data-aos='flip-left') 4.3 Tratamientos
 
     .row.my-3.align-items-center
       .col-lg-4
         figure
           img(src='@/assets/curso/temas/tema4/img26.svg', alt='Imagen decorativa')
-      .col-lg-8
+      .col-lg-8.my-4
         .cajon.color-acento-contenido.p-4
           p.mb-0 Cuando la planta no produce semilla, se debe buscar alguna alternativa de propagación y, a través de cada uno de los métodos anteriormente citados, se puede generar un clon y así tener variedad con valor genético; no obstante, cada técnica requiere de un alistamiento y tratamiento especial, con el fin de que se logre perpetuar la propagación. 
 
-        p Se deben tratar los factores externos, como temperatura, humedad, luz, tiempo, sustrato, requerimiento nutricional, cortes, trazos, entre otros, los cuales permiten controlar las condiciones ideales para el proceso de propagación.
+        p.my-3 Se deben tratar los factores externos, como temperatura, humedad, luz, tiempo, sustrato, requerimiento nutricional, cortes, trazos, entre otros, los cuales permiten controlar las condiciones ideales para el proceso de propagación.
 </template>
 
 <script>
