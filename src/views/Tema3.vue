@@ -64,10 +64,10 @@
             img(src='@/assets/curso/temas/tema3/img3.png', alt='Imagen decorativa')
       
       .row.my-3.align-items-center
-        .col-lg-4
+        .col-lg-4.order-2.order-lg-1
           figure
             img(src='@/assets/curso/temas/tema3/img4.png', alt='Imagen decorativa')
-        .col-lg-8
+        .col-lg-8.order-1.order-lg-2
           p Adicionalmente, hay que fomentar condiciones de trabajo seguras y saludables para los trabajadores, realizando capacitaciones constantes del personal en materia de primeros auxilios, manejo del botiquín, normas de higiene, procedimientos en caso de accidentes y emergencias, y entrenamiento para el manejo de equipos complejos y peligrosos.
 
           .cajon.color-acento-botones.p-4(style="background: #FFD94715")

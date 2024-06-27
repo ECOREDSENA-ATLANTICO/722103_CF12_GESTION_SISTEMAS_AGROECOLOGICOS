@@ -17,8 +17,8 @@
             h4(style='color:#0B481E') ¿Qué es un sustrato en la agricultura?
             p Un sustrato es cualquier medio diferente al suelo, ya sea natural, mineral u orgánico, que sirve como soporte para las plantas.
           .row
-            .col-sm-12.col-md-4.mb-4.mb-lg-0
-              .tarjeta--boton.color-primario.p-4(data-aos='flip-left')
+            .col-sm-12.col-md-4.mb-5.mb-lg-0
+              .tarjeta--boton.color-primario.p-4(data-aos='flip-left').h-100
                 .col-lg-7.m-auto(style='position:relative;top:-50px')
                   figure
                     img(src='@/assets/curso/temas/tema1/img47.svg', width='75px',height='75px', alt='Imagen decorativa')
@@ -26,16 +26,16 @@
                     p Propiedades físicas: alta capacidad de retención de agua, estructura estable, baja densidad aparente. 
                     
             
-            .col-sm-12.col-md-4.mb-4.mb-lg-0
-              .tarjeta--boton.color-primario.p-4(data-aos='flip-left')
+            .col-sm-12.col-md-4.mb-5.mb-lg-0
+              .tarjeta--boton.color-primario.p-4(data-aos='flip-left').h-100
                 .col-lg-7.m-auto(style='position:relative;top:-50px')
                   figure
                     img(src='@/assets/curso/temas/tema1/img48.svg', width='75px',height='75px', alt='Imagen decorativa')
                 .row.justify-content-center.mb-3
                     p Propiedades químicas: baja CIC, baja salinidad, elevada capacidad tampón/buffer. 
                     
-            .col-sm-12.col-md-4.mb-4.mb-lg-0
-              .tarjeta--boton.color-primario.p-4(data-aos='flip-left')
+            .col-sm-12.col-md-4.mb-5.mb-lg-0
+              .tarjeta--boton.color-primario.p-4(data-aos='flip-left').h-100
                 .col-lg-7.m-auto(style='position:relative;top:-50px')
                   figure
                     img(src='@/assets/curso/temas/tema1/img49.svg', width='75px',height='75px', alt='Imagen decorativa')

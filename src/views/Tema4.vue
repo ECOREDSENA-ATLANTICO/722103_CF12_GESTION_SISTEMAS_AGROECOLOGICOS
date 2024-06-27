@@ -168,7 +168,7 @@
 
     Separador
     #t_4_2.titulo-segundo.color-acento-contenido
-    h2(data-aos='flip-left') 4.2 Propagación asexual
+      h2(data-aos='flip-left') 4.2 Propagación asexual
 
     p La semilla es el órgano de propagación vegetal mediante el cual el nuevo individuo se dispersa; la semilla, propiamente dicha, proviene de un fruto, que, a su vez, proviene de una flor, y el nivel de éxito de que el individuo se establezca depende de las características fisiológicas y bioquímicas de la semilla. Sin embargo, hay otros factores externos que intervienen, como el sustrato, el clima, la competencia, la depredación, entre otros; es por ello que las reservas (carbohidratos, lípidos y proteínas) que contenga serán claves para esta se mantenga hasta que la plántula sea capaz de utilizar la luz y hacerse autótrofa. Las semillas son la principal fuente de alimentación en el mundo.
 
