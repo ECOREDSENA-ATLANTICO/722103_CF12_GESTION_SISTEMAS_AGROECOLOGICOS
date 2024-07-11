@@ -420,7 +420,7 @@
 
     Separador
     
-    #t_1_1.titulo-segundo.color-acento-contenido
+    #t_1_2.titulo-segundo.color-acento-contenido
       h2(data-aos='flip-left') 1.2 Herramientas, equipos y técnicas
 
     .row

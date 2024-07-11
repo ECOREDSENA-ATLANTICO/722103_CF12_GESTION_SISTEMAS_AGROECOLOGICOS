@@ -45,11 +45,6 @@ export default {
             titulo: 'Herramientas, equipos y técnicas',
             hash: 't_1_2',
           },
-          {
-            numero: '1.2',
-            titulo: 'Herramientas, equipos y técnicas',
-            hash: 't_1_2',
-          },
         ],
       },
 
@@ -63,6 +58,11 @@ export default {
             numero: '2.1',
             titulo: 'Tipos',
             hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Técnicas y preparación',
+            hash: 't_2_2',
           },
         ],
       },

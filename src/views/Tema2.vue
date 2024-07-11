@@ -113,13 +113,11 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/QGP_2QF7lV8?si=jSVRoYA2fE8hk8od" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-    .row.mt-5.mb-4.align-items-center
-      .col-auto
-        img(src='@/assets/curso/temas/tema2/img3.svg', alt='Imagen decorativa')
-      .col.px-0
-        h3.mb-0 Técnicas y preparación
-    
-      p.my-4 Para llevar a cabo el proceso de desinfección, es importante seleccionar el método adecuado dependiendo de las características propias del sustrato, además del análisis de los posibles impactos que se generan en la salud, el medio ambiente y el material vegetal. Para ello, se tienen en cuenta los siguientes aspectos que se comparten desde la preparación: 
+    Separador
+    #t_2_2.titulo-segundo.color-acento-contenido
+      h2(data-aos='flip-left') 2.2 Técnicas y preparación
+   
+    p.my-4 Para llevar a cabo el proceso de desinfección, es importante seleccionar el método adecuado dependiendo de las características propias del sustrato, además del análisis de los posibles impactos que se generan en la salud, el medio ambiente y el material vegetal. Para ello, se tienen en cuenta los siguientes aspectos que se comparten desde la preparación: 
 
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
