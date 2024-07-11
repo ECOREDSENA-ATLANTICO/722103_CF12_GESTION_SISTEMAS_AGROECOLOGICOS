@@ -10,8 +10,8 @@
       h1 Introducción
     
     p(style='text-align:justify') Le damos la bienvenida al componente formativo denominado 
-      span.text-bold “Propagación vegetal” 
-      | , en el cual se desarrollan temáticas enfocadas a la implementación del proceso de propagación vegetal, teniendo en cuenta: sustratos, técnicas de propagación, equipos y herramientas, métodos de desinfección,  alternativas de propagación de material vegetal <em>in vitro</em>; además de identificar las condiciones óptimas (luz, temperatura, humedad, nutrientes, sanidad) para la  ejecución del proceso y desarrollo de habilidades frente al sistema agroecológico según requerimientos. Comencemos con la siguiente información: 
+      span.text-bold “Propagación vegetal”
+      |, en el cual se desarrollan temáticas enfocadas a la implementación del proceso de propagación vegetal, teniendo en cuenta: sustratos, técnicas de propagación, equipos y herramientas, métodos de desinfección, alternativas de propagación de material vegetal <em>in vitro</em>; además de identificar las condiciones óptimas (luz, temperatura, humedad, nutrientes, sanidad) para la ejecución del proceso y desarrollo de habilidades frente al sistema agroecológico según requerimientos. Comencemos con la siguiente información: 
 
     figure
       .video

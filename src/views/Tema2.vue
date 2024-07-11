@@ -26,7 +26,7 @@
         
         .row.fnd-2.mb-3 
           figure
-            img.d-lg-block.d-none(src='@/assets/curso/temas/tema2/img2.svg', alt='A continuación de la imagen  relacionamos los factores que afectan la eficiencia de un desinfectante.')
+            img.d-lg-block.d-none(src='@/assets/curso/temas/tema2/img2.svg', alt='Muestra el componente formativo los factores que afectan la eficiencia de un desinfectante:Que tan susceptible resulte el microorganismoConocer el modo de acción del desinfectante (acción química) Vida útil del desinfectanteSeleccionar la concentración y cantidad del desinfectanteEl grado de contaminación Los materiales con alto contenido proteínico absorben y neutralizan algunos desinfectantesEstablecer las condiciones óptimas para que el desinfectante actúeCondiciones para la aplicación (pH, luz y mezclas)Técnicas de preparación y aplicaciónGrado de toxicidadCostos y disponibilidad')
             img.d-lg-none.d-block(src='@/assets/curso/temas/tema2/img17.svg', alt='A continuación de la imagen  relacionamos los factores que afectan la eficiencia de un desinfectante.')
         figcaption.mb-5.text-center Nota. 
           span Adaptado de Selección y uso de desinfectantes para la producción en viveros (2016). 
@@ -42,7 +42,7 @@
       .col.px-0
         h3.mb-0 Desinfección química
 
-    p.mt-4 Este tipo de desinfección se destaca por su elevada eficacia insecticida, nematicida, fungicida y herbicida; no obstante, a la hora de seleccionarlo, es importante analizar sus efectos sobre la salud, el medio ambiente y la translocación de este a la planta. A continuación los principales desinfectantes.
+    p.mt-4 Este tipo de desinfección se destaca por su elevada eficacia insecticida, nematicida, fungicida y herbicida; no obstante, a la hora de seleccionarlo, es importante analizar sus efectos sobre la salud, el medio ambiente y la translocación de este a la planta. A continuación, los principales desinfectantes:
 
     .row 
       .col-lg-6
@@ -107,7 +107,7 @@
       .col.px-0
         h3.mb-0 Alternativas no químicas
     
-    .p Existen otras alternativas para la desinfección de las plantas, que, al igual que otro tipo de desinfectantes, buscan conservar las propiedades de estas; de esta manera, observe las alternativas no químicas que se pueden llevar a cabo: 
+    .p Existen otras alternativas para la desinfección de las plantas, que, al igual que otro tipo de desinfectantes, buscan conservar las propiedades de estas; de esta manera, se presentan las alternativas no químicas que se pueden llevar a cabo: 
 
     figure.my-3
       .video

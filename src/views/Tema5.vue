@@ -18,13 +18,13 @@
     
       .row.m-4.p-4
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 5. 
-          span Desarrollo de la semilla en  angiospermas
+          h5 Figura 6. 
+          span Comparación de características del proceso de propagación in vitro e in vivo
 
         figure
           img(src='@/assets/curso/temas/tema5/img2.svg', alt='A continuación de la imagen se relaciona los procesos de propagación in vitro e in vivo.')
           figcaption.my-4.text-center Nota. 
-            span Adaptado de Selección y uso de desinfectantes para la producción en viveros (2016).   
+            span Adaptado de Guía de técnicas, métodos y procedimientos de reproducción sexual o vegetativa de las plantas (2015).    
       .row.mb-3.align-items-center
         .col-auto
           img(src='@/assets/curso/temas/tema2/img3.svg', alt='Imagen decorativa')
@@ -90,11 +90,11 @@
 
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Tabla 3. 
-          span Valores de referencia de las condiciones de pH y Conductividad eléctrica del suelo
+          span Medios, materiales y equipos para propagación <em>in vitro</em>
 
-      .tabla-a.color-acento-contenido.mb-5
+      .tabla-a.color-acento-contenido.mb-3
         table
-          caption.mt-5.mb-4 Nota. 
+          caption.mt-2.mb-4 Nota. 
             | Sena (2022). 
           thead.text-center
             tr(style="background: #FFA686")

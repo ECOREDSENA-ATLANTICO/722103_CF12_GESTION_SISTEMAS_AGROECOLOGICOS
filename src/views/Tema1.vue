@@ -67,7 +67,7 @@
             figure
               img(src='@/assets/curso/temas/tema1/img5.svg', alt='La selección del sustrato juega un papel primordial para la producción del material vegetal.' style='max-width:170px; max-height:170px; margin: auto')
           
-        p La selección del sustrato juega un papel primordial para la producción exitosa del material vegetal.
+        p La selección del sustrato juega un papel primordial para la producción del material vegetal.
       .col-md.tarjeta.color-acento-botones.p-5(data-aos='fade-down',style='background: #E1EDB5')
         .row.justify-content-center.mb-4
           .col-lg-10
@@ -163,7 +163,7 @@
                     .capa-secundario2 Cloro
                     .capa-secundario2 Molibdeno
     .row.p-3
-        p Normalmente, los nutrientes como nitrógeno, fósforo y potasio deben ser aportados en grandes cantidades mediante abono, teniendo en cuenta las necesidades de la planta y normalmente el espacio del recipiente (maceta) es reducido.
+        p Normalmente, los nutrientes como nitrógeno, fósforo y potasio deben ser aportados en grandes cantidades mediante abono, teniendo en cuenta las necesidades de la planta, y normalmente el espacio del recipiente (maceta) es reducido.
 
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Tabla 1. 
@@ -176,7 +176,7 @@
           tr
             th Componentes
             th Características deseables
-            th Inorgánicos 
+            th Ejemplos 
         
         tbody
           tr
@@ -382,7 +382,7 @@
       LineaTiempoD.color-acento-contenido
         .row(numero="1" titulo="Solarización")
           .col-md-6.mb-4.mb-md-0
-            p.text-small Mediante la cual se aprovecha la energía solar para elevar la temperatura del sustrato y, de esta manera, eliminar patógenos. Esta técnica consiste en humedecer el sustrato y cubrirlo con plástico, logrando temperaturas de hasta 82°C durante 3 meses. Además, sirve para aumentar el contenido de nitrógeno, calcio y magnesio del suelo por mineralización. 
+            p.text-small un sustrato debe ser desinfectado cuando existe sospecha de contaminación, cuando se tienen especies muy susceptibles a enfermedades del suelo o, de pronto, si son especies de mucho valor (económico, investigativo, entre otros). No obstante, la desinfección del sustrato no siempre es necesaria, en gran parte depende del sustrato y del t ipo de material vegetal que se vaya a propagar.  Teniendo en cuenta la información anterior, dentro de las técnicas para lograr la desinfección del sustrato, se encuentran:  
 
           .col-md-6
             figure
@@ -464,11 +464,12 @@
               figure
                 img(src='@/assets/curso/temas/tema1/img35.png', alt='Imagen decorativa')
     
+    p Contenedores son los envases o recipientes cuya función es sostener el sustrato, y se pueden clasificar, según uso y porosidad, en:
     .row.p-5(style="background: #adce3240")
         
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
         h5 Figura 1. 
-        span Factores que afectan la eficiencia de un desinfectante
+        span Contenedores recuperables de plástico
       .row.fnd-2.mb-3 
         figure(data-aos="zoom-in-left")
           img(src='@/assets/curso/temas/tema1/img51.png', alt='Los contenedores recuperables de  plástico son: bolsas de polietileno, bandejas de uso horticola y contenedores de diversos tamaños y materiales  incluyendo vidrio.')
@@ -507,7 +508,7 @@
             h6.mb-3 Diámetro
             p.mb-0.text-white Depende de la especie a ser cultivada, pues así mismo se establece el diámetro adecuado del contenedor con el fin de que el agua de riego llegue al sustrato.
 
-      .row.justify-content-center.mb-5 
+      .row.justify-content-center
         .col-xl-4.col-lg-7.col-md-9.col-11.mb-4
           .crd_hover_txt(data-aos="flip-left")
             .crd_hover_txt--img
@@ -515,7 +516,7 @@
                 img(src="@/assets/curso/temas/tema1/img44.png", alt="Se relaciona a continuación los insecticidas químicos que se destacan: 1. Organoclorados: Altamente estables, de bajo costo, sin embargo, los residuos son de gran persistencia en el ambiente.")
             .crd_hover_txt--body.text-center
               h6.mb-3 Densidad de las plantas
-              p.mb-0.text-white En los contenedores con múltiples celdas o cavidades, es importante verificar la incidencia de la luz, agua y nutrientes que están disponibles para cada planta. Es así como el esparcimiento entre recipientes influye en la altura, rectitud de tallos, diámetro de cuello y frondosidad de la planta
+              p.mb-0.text-white En los contenedores con múltiples celdas o cavidades, es importante verificar la incidencia de la luz, agua y nutrientes que están disponibles para cada planta. Es así como el esparcimiento entre recipientes influye en la altura, rectitud de tallos, diámetro de cuello y frondosidad de la planta.
         
         .col-xl-4.col-lg-7.col-md-9.col-11.mb-4
           .crd_hover_txt(data-aos="flip-left")

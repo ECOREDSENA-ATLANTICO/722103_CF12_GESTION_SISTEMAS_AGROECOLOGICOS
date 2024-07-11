@@ -38,7 +38,7 @@
           .col-lg-11.m-auto
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
               h5 Figura 3. 
-              span Desarrollo de la semilla en angiospermas
+              span Desarrollo de la semilla en la angiosperma
             figure
               img(src='@/assets/curso/temas/tema4/img3.svg', alt='Imagen decorativa')
 
@@ -48,7 +48,7 @@
         
         .row(titulo="Desarrollo del fruto en angiospermas")
           .col-lg-12.mb-md-0
-            p En la fecundación, el óvulo, en una angiosperma, consta de una o dos cubiertas protectoras (integumentos) y un tejido central (la nucela). La  meiosis de la célula madre, dentro de la nucela, seguida de varias divisiones mitóticas, es lo que genera la formación del saco embrional (estructura haploide de 8 núcleos y 7 células), la cual ocupa espacio central de la nucela. Cuando el tubo polínico llega al saco embrionario, libera dos gametos masculinos, donde uno de ellos se une a uno de los núcleos del saco embrional (célula huevo) para formar un zigoto, que después se convierte en planta embrionaria diploide; en cuanto al segundo gameto masuclino, este se une con otros dos núcleos femeninos (núcleos polares) para formar una célula triploide, que después se convierte en el endosperma, tejido que actúa como reserva nutritiva para el desarrollo del embrión. Finalmente, los otros cinco núcleos del saco embrional (dos sinérgidas y tres células antipodales) no desempeñan ninguna función en el desarrollo de la semilla, pues, para que se desarrolle una buena semilla, es necesario que se produzca tanto la fecundación de la célula huevo como la triple fusión con los núcleos polares.
+            p  El desarrollo de la semilla fecundada normalmente va a acompañado por el desarrollo del fruto, por lo cual, se engrosa la pared del ovario para formar el pericarpo, encontrando frutos dehiscentes, indehiscentes o secos, e indehiscentes y carnosos. Observe cómo se presenta el desarrollo del fruto en angiospermas. 
           .tarjeta--container.row.m-0
             .col-md.tarjeta.bgr-verde-tarjeta.p-5
               .row.justify-content-center.mb-4
@@ -188,6 +188,10 @@
         h3.mb-0 Modalidades de reproducción asexual
       
     p.my-3 En las modalidades de reproducción asexual, un solo organismo da lugar a otros seres genéticamente idénticos al progenitor, mediante divisiones por mitosis. A continuación, se presenta la siguiente imagen:
+
+    .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+      h5 Figura 5. 
+      span Modalidades de reproducción asexual
 
     .tarjeta--container.row.mb-5
       .col-md.tarjeta.color-acento-botones.p-5(style='background: #E1EDB5')
