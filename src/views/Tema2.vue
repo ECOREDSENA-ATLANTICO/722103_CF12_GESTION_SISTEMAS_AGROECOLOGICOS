@@ -111,8 +111,8 @@
 
     figure.my-3
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/QGP_2QF7lV8?si=jSVRoYA2fE8hk8od" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/95cnwsI8sPI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        
     Separador
     #t_2_2.titulo-segundo.color-acento-contenido
       h2(data-aos='flip-left') 2.2 Técnicas y preparación

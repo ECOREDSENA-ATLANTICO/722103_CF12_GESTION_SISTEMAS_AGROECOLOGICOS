@@ -15,8 +15,9 @@
 
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/e6-be5YGpU0?si=As-AaYCFfyIvYz6t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Nn1w-siPzF8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       
+        
 </template>
 
 <script>
